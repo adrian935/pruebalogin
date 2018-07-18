@@ -1,0 +1,16 @@
+{
+  "name": "kanna",
+  "version": "1.0.0",
+  "description": "kanna pruebas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "adrian :v",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.2",
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
+  }
+}

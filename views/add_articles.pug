@@ -1,0 +1,15 @@
+extends layout
+
+block content
+        h1 Login
+        form(method='POST',action='/articles/add')
+
+            #form-group
+            div
+                label Usuario:
+                input.form-control(name='Usuario', type='text')  
+                
+            
+                label Password:
+                input.form-control(name='password', type='password')
+            input.btbn.btn-primary(type='submit', value='Submit')
