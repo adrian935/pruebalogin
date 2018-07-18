@@ -36,8 +36,8 @@ app.get('/',(req,res)=>{
 });
 
 
-//add route
-app.get('/articles/add',(req,res)=>{
+//login
+app.get('/login',(req,res)=>{
     res.render('add_articles',{
         title:'Add articles'
     });

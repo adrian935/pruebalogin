@@ -1,15 +1,19 @@
 extends layout
 
 block content
-        h1 Login
+        link(rel='stylesheet' href='/bootstrap/bootstrap.css')
+        
         form(method='POST',action='/articles/add')
 
-            #form-group
-            div
-                label Usuario:
-                input.form-control(name='Usuario', type='text')  
-                
             
-                label Password:
-                input.form-control(name='password', type='password')
-            input.btbn.btn-primary(type='submit', value='Submit')
+            div.container.form
+             h1 Login Kanna
+                div.form-group
+                    label Usuario:
+                    input.form-control(name='Usuario', type='text')  
+                
+                div.form-group
+                    label Password:
+                    input.form-control(name='password', type='password')
+                div.form-group
+                    input.btn.btn-primary.col-xs-12(type='submit', value='Submit')
